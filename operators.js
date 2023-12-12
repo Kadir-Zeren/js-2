@@ -153,3 +153,21 @@ console.log(typeof (7 + num3)); // string
 
 // const alan = pi * yariCap ** 2
 // console.log(alan)
+
+// //! 🔥🔥🔥              Artırma ve Eksiltme Operatörleri
+
+// //? ++ ve -- operatörleri 1 artırır veya 1 eksiltir
+
+// // sonrası artırma ve eksiltme
+// // let number1 = 6;
+// // //  let artirNew = number1 // 6
+// // //  number1= number1 +1// 7
+// // let number1New = number1++; // önce atadı sonrasında number1 değişkenini 1 artırdı
+// // console.log(number1New); // 6
+// // console.log(number1); // 7
+// // console.log(number1New); // 6
+
+// // let newSayi = ++number1; // önce artır sonra ata
+// // console.log(newSayi); //8
+// // console.log(--newSayi); // 7
+// // console.log(newSayi--); // 7

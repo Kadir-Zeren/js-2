@@ -110,3 +110,32 @@ console.log(typeof (7 + num3)); // string
 // console.log(onlarBas);
 // const yüzlerBas = benimSayim / 100; // 9.67
 // console.log(yüzlerBas);
+
+//?Bazi hazır fonksiyonlar
+// Math.floor();  //* her zaman en yakin alt tam sayiya yuvarlar
+// Math.ceil();  //* her zaman en yakin ust tam sayiya yuvarlar
+// Math.trunc(); //* sayinin tam kismini alir.
+// Math.round(); //* en yakin tam sayiya yuvarlar.
+// Math.random(); //* 0 ve 1 arasında rasgele sayi uretir.
+// toFixed(basamakSayısı): // . dan sonra parantezin içine verdiğimiz sayı kadar basamak alır. Eğer noktadan sonraki basamak sayısı içine verdiğimiz sayıdan büyükse sondaki rakamı bir artırır.
+
+// console.log(
+//   `YüzlerBas: ${Math.trunc(yüzlerBas)}, OnlarBas: ${Math.trunc(
+//     onlarBas
+//   )}, birlerbas : ${birlerBas}`
+// ); //YüzlerBas: 9, OnlarBas: 6, birlerbas : 7
+
+// const hazirSayi = 56.788888;
+
+// console.log(`hazirSayi of Circle: ${hazirSayi.toFixed(3)} `); // 56.789
+// console.log(`hazirSayi of Circle: ${Math.floor(hazirSayi)} `);
+// console.log(`hazirSayi of Circle: ${Math.ceil(hazirSayi)} `);
+// console.log(`hazirSayi of Circle: ${Math.trunc(hazirSayi)} `);
+// console.log(`hazirSayi of Circle: ${Math.round(hazirSayi)} `);
+
+// const randomNum = Math.random();
+// console.log(randomNum);
+
+// const randomNum2 = Math.random() * 10;
+// console.log(randomNum2);
+// console.log(Math.round(Math.random() * 10));

@@ -171,3 +171,39 @@ console.log(typeof (7 + num3)); // string
 // // console.log(newSayi); //8
 // // console.log(--newSayi); // 7
 // // console.log(newSayi--); // 7
+
+// //! 🔥🔥🔥              Atama Operatörleri
+
+// let nums1 = 14
+// let nums2 = 17
+// //! += Ekle ve Sonucu Ata
+// // nums2 = nums2 + nums1;
+// //? yukarıdaki gibi uzun uzun yazmak yerine += operatörünü kullanarak işlemimi kısaltmış oldum. Aynı şekilde diğer operatörler içinde geçerli.
+// // nums2 += nums1;
+// // console.log(nums2); // 31
+
+// let num14 = 6
+// let num15 = 3
+
+// //! -= Çıkar ve Sonucu Ata
+// // num14 = num14 - num15;
+// // num14 -= num15;
+// // console.log(num14); // 3
+
+// //! *= Çarp ve Sonucu Ata
+// // num14 = num14 * num15;
+// num14 *= num15
+// console.log(num14) //18
+// //! /= Böl ve Sonucu Ata
+// // num14 = num14 / num15;
+// // num14 /= num15;
+// // console.log(num14);
+// //! /= Bölümden Kalanı Bul ve Ata
+// // num14 = num14 % num15;
+// // num14 %= num15;
+// // console.log(num14);
+
+// //! **= Üs Al ve Sonucu Ata
+// // num14 = num14 ** num15;
+// // num14 **= num15;
+// // console.log(num14);
